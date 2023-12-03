@@ -250,3 +250,8 @@ FUNCTION MultPI# (m#)
 MultPI# = 3.141592653589793 * m#
 END FUNCTION
 
+'=====================================================================
+FUNCTION VersionSpinner$
+VersionSpinner$ = MID$("$VER: Spinner blanker 1.0 (15-Jun-2019) by bplus & RhoSigma :END$", 7, 53)
+END FUNCTION
+

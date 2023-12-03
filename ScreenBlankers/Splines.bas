@@ -515,3 +515,8 @@ FUNCTION RangeRand% (low%, high%)
 RangeRand% = INT(RND(1) * (high% - low% + 1)) + low%
 END FUNCTION
 
+'=====================================================================
+FUNCTION VersionSplines$
+VersionSplines$ = MID$("$VER: Splines blanker 1.0 (11-Apr-2018) by RhoSigma :END$", 7, 45)
+END FUNCTION
+

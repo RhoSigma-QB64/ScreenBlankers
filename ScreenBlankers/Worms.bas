@@ -150,3 +150,8 @@ FUNCTION RangeRand% (low%, high%)
 RangeRand% = INT(RND(1) * (high% - low% + 1)) + low%
 END FUNCTION
 
+'=====================================================================
+FUNCTION VersionWorms$
+VersionWorms$ = MID$("$VER: Worms blanker 1.0 (06-Feb-2017) by RhoSigma :END$", 7, 43)
+END FUNCTION
+

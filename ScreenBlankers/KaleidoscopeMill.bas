@@ -248,3 +248,8 @@ DATA &H30,&H00,&H18
 DATA &H20,&H00,&H10
 DATA &H10,&H00,&H08
 
+'=====================================================================
+FUNCTION VersionKaleidoscopeMill$
+VersionKaleidoscopeMill$ = MID$("$VER: KaleidoscopeMill blanker 1.0 (19-Aug-2010) by RhoSigma :END$", 7, 54)
+END FUNCTION
+

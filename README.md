@@ -13,7 +13,7 @@ Most of the screen blanker modules in this small collection are written by mysel
 - Worms
 - and several more
 
-#### Download the latest Release December/2022 right here: [ScreenBlankers.7z](https://github.com/RhoSigma-QB64/ScreenBlankers/raw/main/ScreenBlankers.7z)
+#### Download the latest Release December/2023 right here: [ScreenBlankers.7z](https://github.com/RhoSigma-QB64/ScreenBlankers/raw/main/ScreenBlankers.7z)
 
 >**Move the extracted ScreenBlankers folder with its entire contents to any place of your choice. For installation instructions have a look into the [ScreenBlankers-Info.html](https://htmlpreview.github.io/?https://github.com/RhoSigma-QB64/ScreenBlankers/blob/main/ScreenBlankers/ScreenBlankers-Info.html) file.**
 

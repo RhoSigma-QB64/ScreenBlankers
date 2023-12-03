@@ -183,3 +183,8 @@ FOR cir% = 0 TO 359 STEP 5
 NEXT cir%
 END SUB
 
+'=====================================================================
+FUNCTION VersionBinClock$
+VersionBinClock$ = MID$("$VER: BinClock blanker 1.0 (10-Sep-2018) by RhoSigma :END$", 7, 46)
+END FUNCTION
+

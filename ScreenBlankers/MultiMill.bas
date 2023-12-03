@@ -369,3 +369,8 @@ FUNCTION RangeRand% (low%, high%)
 RangeRand% = INT(RND(1) * (high% - low% + 1)) + low%
 END FUNCTION
 
+'=====================================================================
+FUNCTION VersionMultiMill$
+VersionMultiMill$ = MID$("$VER: MultiMill blanker 1.0 (21-Aug-2010) by RhoSigma :END$", 7, 47)
+END FUNCTION
+

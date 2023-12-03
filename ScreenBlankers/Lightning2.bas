@@ -189,3 +189,8 @@ FUNCTION RangeRand% (low%, high%)
 RangeRand% = INT(RND(1) * (high% - low% + 1)) + low%
 END FUNCTION
 
+'=====================================================================
+FUNCTION VersionLightning2$
+VersionLightning2$ = MID$("$VER: Lightning2 blanker 1.0 (08-Feb-2017) by RhoSigma, bplus & TylerDarko :END$", 7, 68)
+END FUNCTION
+

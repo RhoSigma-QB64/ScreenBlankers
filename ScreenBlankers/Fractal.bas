@@ -221,3 +221,8 @@ PUT #f&, , b$
 CLOSE #f&
 END SUB
 
+'=====================================================================
+FUNCTION VersionFractal$
+VersionFractal$ = MID$("$VER: Fractal blanker 1.0 (07-Oct-2011) by RhoSigma :END$", 7, 45)
+END FUNCTION
+

@@ -366,3 +366,8 @@ FUNCTION RangeRand% (low%, high%)
 RangeRand% = INT(RND(1) * (high% - low% + 1)) + low%
 END FUNCTION
 
+'=====================================================================
+FUNCTION VersionMystify$
+VersionMystify$ = MID$("$VER: Mystify blanker 1.0 (20-Aug-2010) by RhoSigma :END$", 7, 45)
+END FUNCTION
+

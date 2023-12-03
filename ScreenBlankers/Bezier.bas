@@ -181,3 +181,8 @@ FUNCTION RangeRand% (low%, high%)
 RangeRand% = INT(RND(1) * (high% - low% + 1)) + low%
 END FUNCTION
 
+'=====================================================================
+FUNCTION VersionBezier$
+VersionBezier$ = MID$("$VER: Bezier blanker 1.0 (07-Jul-2021) by RhoSigma :END$", 7, 44)
+END FUNCTION
+
